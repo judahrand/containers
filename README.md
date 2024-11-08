@@ -112,8 +112,6 @@ Container | Channel | Image
 [home-assistant](https://github.com/judahrand/pkgs/container/home-assistant) | stable | ghcr.io/judahrand/home-assistant
 [home-assistant-matter-hub](https://github.com/judahrand/pkgs/container/home-assistant-matter-hub) | stable | ghcr.io/judahrand/home-assistant-matter-hub
 [jbops](https://github.com/judahrand/pkgs/container/jbops) | stable | ghcr.io/judahrand/jbops
-[matterbridge](https://github.com/judahrand/pkgs/container/matterbridge) | stable | ghcr.io/judahrand/matterbridge
-[matterbridge-zigbee2mqtt](https://github.com/judahrand/pkgs/container/matterbridge-zigbee2mqtt) | stable | ghcr.io/judahrand/matterbridge-zigbee2mqtt
 [plex](https://github.com/judahrand/pkgs/container/plex) | stable | ghcr.io/judahrand/plex
 [plex-beta](https://github.com/judahrand/pkgs/container/plex-beta) | beta | ghcr.io/judahrand/plex-beta
 [postgres-init](https://github.com/judahrand/pkgs/container/postgres-init) | stable | ghcr.io/judahrand/postgres-init
