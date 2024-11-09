@@ -1,5 +1,5 @@
 ### -------------------- Example Config -------------------- ###
-FROM docker.io/library/busybox:latest AS builder
+FROM docker.io/library/busybox:stable AS builder
 
 ARG TARGETPLATFORM
 ARG VERSION
