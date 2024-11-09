@@ -1,14 +1,3 @@
-### -------------------- Example Config -------------------- ###
-FROM docker.io/library/busybox:stable AS builder
-
-ARG TARGETPLATFORM
-ARG VERSION
-ARG CHANNEL
-
-RUN wget \
-    https://raw.githubusercontent.com/Koenkk/zigbee2mqtt/refs/tags/${VERSION}/data/configuration.example.yaml
-
-### -------------------- Zigbee2MQTT -------------------- ###
 FROM docker.io/library/node:22.11.0-alpine3.20
 
 ENV UMASK="0002" \
@@ -29,7 +18,6 @@ RUN \
 
 # Copy the run script to the container
 COPY ./apps/zigbee2mqtt/entrypoint.sh /entrypoint.sh
-COPY --from=builder /configuration.example.yaml /configuration.example.yaml
 
 USER nobody:nogroup
 WORKDIR /data
