@@ -128,6 +128,7 @@ Container | Channel | Image
 [sonarr-develop](https://github.com/judahrand/pkgs/container/sonarr-develop) | develop | ghcr.io/judahrand/sonarr-develop
 [tautulli](https://github.com/judahrand/pkgs/container/tautulli) | master | ghcr.io/judahrand/tautulli
 [volsync](https://github.com/judahrand/pkgs/container/volsync) | stable | ghcr.io/judahrand/volsync
+[zigbee2mqtt](https://github.com/judahrand/pkgs/container/zigbee2mqtt) | stable | ghcr.io/judahrand/zigbee2mqtt
 
 
 ## Deprecations
