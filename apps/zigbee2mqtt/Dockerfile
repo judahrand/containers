@@ -1,4 +1,4 @@
-FROM docker.io/library/node:22.11.0-alpine3.20
+FROM docker.io/library/node:22.12.0-alpine3.20
 
 ENV UMASK="0002" \
     TZ="Etc/UTC"
