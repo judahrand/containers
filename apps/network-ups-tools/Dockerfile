@@ -4,7 +4,8 @@ FROM docker.io/library/alpine:3.21
 ARG VERSION
 USER root
 RUN \
-    apk add --no-cache \
+    mkdir -p /var/run/nut \
+    && apk add --no-cache \
         bash \
         ca-certificates \
         catatonit \
@@ -12,5 +13,4 @@ RUN \
         nut=="${VERSION}" \
     && rm -rf /tmp/*
 COPY . /
-USER nobody:nogroup
 ENTRYPOINT ["/usr/bin/catatonit", "--", "/entrypoint.sh"]

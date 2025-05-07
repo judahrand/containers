@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 set -e
 
-/sbin/upsdrvctl -u root start
-exec /sbin/upsd -u root -D
+/usr/sbin/upsdrvctl -u root start
+exec /usr/sbin/upsd -u root -D
