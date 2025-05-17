@@ -1,0 +1,6 @@
+---
+schemaVersion: "2.0.0"
+fileExistenceTests:
+  - name: immich-stack
+    path: /usr/bin/immich-stack
+    shouldExist: true
